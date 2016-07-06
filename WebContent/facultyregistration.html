@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Faculty Registration Page</title>
+</head>
+<body>
+
+<br>
+<h1>Faculty Registration page</h1>
+<form action="facultyregister.jsp" method="post">
+
+
+Faculty Name :<input type="text" name="fullname" required/><br/><br/>
+Faculty ID :<input type="text" name="userid" required/><br/><br/>
+Password :<input type="password" name="pwd" required/><br/><br/>
+Email ID:<input type="email" name="email" required/><br/><br/>
+Phone Number:<input type="tel" name="phone" required/><br/><br/>
+Subject:
+<select name="subject" required>
+  <option value=""></option>
+  <option value="java">Java</option>
+  <option value="javascript">JavaScript</option>
+  <option value="sql">SQL</option>
+  <option value="css">CSS</option>
+  <option value="php">PHP</option>
+  <option value="mongodb">MongoDB</option>
+</select>
+<p>Here is the course ID for each Subject:<br>
+   Java-1<br>
+   JavaScript-2<br>
+   SQL-3<br>
+   CSS-4<br>
+   PHP-5<br>
+   MongoDB-6
+   </p>
+CourseID:<input type="number" name="courseid" required/><br/><br/>
+<br/><br/>
+
+<input type="submit" />
+</body>
+</html>
